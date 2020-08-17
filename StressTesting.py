@@ -6,7 +6,7 @@
 #1. First write the naive approach to the problem.
 #2. Then write the efficient algorithm which you have worked on.
 #3. Check if all edge cases satisfied.
-#4. Apply thr Technique as given below.
+#4. Apply the Technique as given below.
 #---------------------------------------------------------------------------------#
 #So let's take an easy example so that we can understand it better. 
 #Maximum-pairwise-product-problem
