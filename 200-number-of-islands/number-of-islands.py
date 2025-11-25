@@ -8,7 +8,8 @@ class Solution:
         visited = set()
 
         def explore(r, c):
-            
+            if (r, c) in visited:
+                return
             visited.add((r,c))
 
             for dr,dc in directions:
@@ -16,7 +17,6 @@ class Solution:
 
                 if nr in range(rows) and nc in range(cols) and (nr, nc) not in visited and grid[nr][nc] == "1":
                     explore(nr, nc)
-                    visited.add((nr, nc))
 
 
         res = 0
